@@ -12,20 +12,15 @@ import { ethers } from 'ethers'
 // import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 // import { getAddress } from 'utils/addressHelpers'
 // import { Address } from 'config/constants/types'
-// import { Dao } from 'state/types'
-
 
 
 
 const MainContent: React.FC = () => {
     // const { account } = useWeb3React()
-
     // const { toastError, toastSuccess, toastWarning } = useToast()
-
     // const nftaddress = '0xDC20938b59078e2550B91090117eF8760E9Ac21D'
     // const nftContract = useNftTest('0xDC20938b59078e2550B91090117eF8760E9Ac21D')
     // const { callWithGasPrice } = useCallWithGasPrice()
-
 
     const handleNft = async () => {
         const callOptions = {
